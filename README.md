@@ -1,4 +1,6 @@
-#factorio setup
+#factorio setup skript
+
+## how-to
 
 1. Download factorio headless 
 2. go into factorio unpacked folder
@@ -8,3 +10,6 @@
     `
     bash ./start-standart-server.sh
     `
+## warning!
+
+running `bash ./start-standart-server.sh` will remove the saves folder
