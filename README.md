@@ -1,5 +1,7 @@
 #factorio setup skript
 
+## pr
+
 ## how-to
 
 1. Download factorio headless 
@@ -9,6 +11,8 @@
 
     `
     bash ./start-standart-server.sh
+
+5. open port 34197 on server
     `
 ## warning!
 
