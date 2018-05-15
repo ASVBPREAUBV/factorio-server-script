@@ -1,8 +1,8 @@
-#factorio setup skript
+# factorio server how to
 
 ## prerequiseries
 
-Generic Linux Server (e.g. Ubuntu16), Git, [factorio headless](https://factorio.com/download-headless)
+Generic Linux Server (e.g. Ubuntu16), Git, [factorio headless](https://factorio.com/download-headless) binary
 
 ## how-to
 
