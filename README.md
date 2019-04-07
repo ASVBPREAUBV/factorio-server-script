@@ -9,7 +9,7 @@ Generic Linux Server (e.g. Ubuntu16), Git, [factorio headless](https://factorio.
 1. Download factorio headless file e.g.:
 
     ` 
-    wget https://factorio.com/get-download/0.15.40/headless/linux64 -O factorio.tar.xz
+    wget https://www.factorio.com/get-download/0.16.51/headless/linux64 -O factorio.tar.xz
     `
 2. unpack file 
 
