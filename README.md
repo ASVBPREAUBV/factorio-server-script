@@ -14,7 +14,6 @@ Generic Linux Server (e.g. Ubuntu16), Git, [factorio headless](https://factorio.
 2. unpack file 
 
     `
-    mkdir factorio
     tar -xf factorio.tar.xz
     `
 
