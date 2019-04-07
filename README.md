@@ -2,7 +2,10 @@
 
 ## prerequiseries
 
-Generic Linux Server (e.g. Ubuntu16), Git, [factorio headless](https://factorio.com/download-headless) binary
+1. Generic Linux Server (e.g. ubuntu) !!! PORT 34197 MUST BE OPEN TO INTERNET !!!
+2. Git
+3. [factorio headless](https://factorio.com/download-headless) binary
+4. factorio account
 
 ## how-to
 
@@ -32,26 +35,25 @@ Generic Linux Server (e.g. Ubuntu16), Git, [factorio headless](https://factorio.
 5. Enter git folder 
 
     `
-    cd git-factorio-server
+    cd factorio-server-script
     `
     
-5. open server-settings.config.json
+6. open server-settings.config.json
 
     `
     vim server-settings.config.json
     `
 
 change "password" "username" to your own factorio account and "game_password" for access control
+change map_generator.config.json and map_settings.config.json for game parameters
     
-6. port 34197 should be open on server
-7. run skript
+7. run start script
 
     `
     bash ./start-standart-server.sh
     `
     
 8. Your server should be visible in public multiplayer list
-9. If not look at the logs in the console carefully
     `
 ## warning!
 
