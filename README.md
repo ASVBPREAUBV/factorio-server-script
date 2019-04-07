@@ -29,7 +29,7 @@ Generic Linux Server (e.g. Ubuntu16), Git, [factorio headless](https://factorio.
     git clone https://github.com/ASVBPREAUBV/git-factorio-server
     `
     
-5. change "password" "username" and "game_password" for public visibility in server-settings.config.json
+5. in git-factorio-server/server-settings.config.json change "password" "username" and "game_password" for public visibility in server-settings.config.json
 6. open port 34197 on server
 7. run skript
 
