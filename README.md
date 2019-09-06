@@ -61,4 +61,4 @@ change map_generator.config.json and map_settings.config.json for game parameter
     `
 ## WARNING
 
-running `bash ./start-standart-server.sh` will remove the git-saves folder
+running `bash ./start-standard-server.sh` will remove the git-saves folder
