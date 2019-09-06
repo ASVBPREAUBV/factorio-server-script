@@ -1,19 +1,22 @@
-# factorio server how to
+# Simple factorio Server Setup
 
-## prerequiseries
+## Prerequiseries
 
 1. Generic Linux Server (e.g. ubuntu) !!! PORT 34197 MUST BE OPEN TO INTERNET !!!
 2. Git
 3. [factorio headless](https://factorio.com/download-headless) binary
 4. factorio account
 
-## how-to
+## Instalation
 
 1. Download factorio headless file e.g.:
+View the list here:
+https://factorio.com/download-headless
 
     ` 
     wget https://www.factorio.com/get-download/0.16.51/headless/linux64 -O factorio.tar.xz
     `
+    
 2. unpack file 
 
     `
@@ -42,6 +45,7 @@
 
     `
     vim server-settings.config.json
+    nano server-settings.config.json
     `
 
 change "password" "username" to your own factorio account and "game_password" for access control
@@ -50,11 +54,11 @@ change map_generator.config.json and map_settings.config.json for game parameter
 7. run start script
 
     `
-    bash ./start-standart-server.sh
+    bash ./start-standard-server.sh
     `
     
 8. Your server should be visible in public multiplayer list
     `
-## warning!
+## WARNING
 
 running `bash ./start-standart-server.sh` will remove the git-saves folder
