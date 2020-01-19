@@ -2,7 +2,7 @@
 
 ## Prerequiseries
 
-1. Generic Linux Server (e.g. ubuntu) !!! PORT 34197 MUST BE OPEN TO INTERNET !!!
+1. Generic Linux Server (e.g. ubuntu) !!! PORT 34197 MUST BE REMOTELY ACCESSIBLE !!!
 2. Git
 3. [factorio headless](https://factorio.com/download-headless) binary
 4. factorio account
