@@ -2,51 +2,33 @@
 
 ## Prerequiseries
 
-1. Generic Linux Server (e.g. ubuntu) !!! PORT 34197 MUST BE REMOTELY ACCESSIBLE !!!
-2. Git
-3. [factorio headless](https://factorio.com/download-headless) binary
+1. Tested only on Ubuntu 20
+2. port 34197 public
+3. git
 4. factorio account
 
-## Instalation
+## Installation
 
 1. Download factorio headless file e.g.:
-View the list here:
-https://factorio.com/download-headless
-
-    ` 
-    wget https://www.factorio.com/get-download/0.16.51/headless/linux64 -O factorio.tar.xz
-    `
-    
-2. unpack file 
-
-    `
-    tar -xf factorio.tar.xz
-    `
-
-3. Enter unpacked folder 
-
-    `
-    cd factorio
-    `
-    
-4. clone git as subdirectory of unpacked factorio folder
-    
-    `
+```bash
+wget https://factorio.com/get-download/latest/headless/linux64 -O /tmp/factorio.tar.xz
+```
+2. unpack bin and add to path 
+```bash
+mkdir /usr/local/bin/factorio
+tar xvf /tmp/factorio.tar.xz --directory=/usr/local/bin
+PATH=$PATH:/usr/local/bin/factorio/bin/x64
+```
+3. clone this repo and enter dir
+```bash
     git clone https://github.com/ASVBPREAUBV/git-factorio-server
-    `
-    
-5. Enter git folder 
-
-    `
     cd factorio-server-script
-    `
-    
-6. open server-settings.config.json
-
-    `
+``` 
+4. open server-settings.config.json
+```bash
     vim server-settings.config.json
     nano server-settings.config.json
-    `
+```
 
 change "password" "username" to your own factorio account and "game_password" for access control
 change map_generator.config.json and map_settings.config.json for game parameters
